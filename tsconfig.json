@@ -1,0 +1,61 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "manual_typings"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ],
+      "lodash/*": [
+        "node_modules/@types/lodash-es/*"
+      ],
+      "@ajsf/core": [
+        "dist/@ajsf/core"
+      ],
+      "@ajsf/core/*": [
+        "dist/@ajsf/core/*"
+      ],
+      "@ajsf/bootstrap3": [
+        "dist/@ajsf/bootstrap3"
+      ],
+      "@ajsf/bootstrap3/*": [
+        "dist/@ajsf/bootstrap3/*"
+      ],
+      "@ajsf/bootstrap4": [
+        "dist/@ajsf/bootstrap4"
+      ],
+      "@ajsf/bootstrap4/*": [
+        "dist/@ajsf/bootstrap4/*"
+      ],
+      "@ajsf/material": [
+        "dist/@ajsf/material"
+      ],
+      "@ajsf/material/*": [
+        "dist/@ajsf/material/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
